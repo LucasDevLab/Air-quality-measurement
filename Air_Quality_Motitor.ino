@@ -13,9 +13,9 @@ void setup() {
   lcd.setCursor(1,1);
   lcd.print("    D.I.Y");
   pinMode(2, OUTPUT); // Buzzer
-  pinMode(5, OUTPUT); // Led rouge
-  pinMode(6, OUTPUT); // Led jaune
-  pinMode(7, OUTPUT); // Led verte
+  pinMode(5, OUTPUT); // Red LED
+  pinMode(6, OUTPUT); // Yellow LED
+  pinMode(7, OUTPUT); // Green LED
   digitalWrite(2, LOW);
   digitalWrite(5, LOW);
   digitalWrite(6, LOW);
@@ -26,7 +26,7 @@ void setup() {
 
 void loop() {
   mesure = analogRead(A0);
-  Serial.print ("valeur mesurée :");
+  Serial.print ("measured value :");
   Serial.println(mesure);
   lcd.setCursor(7,1);
   lcd.print(mesure);
@@ -36,7 +36,7 @@ void loop() {
   digitalWrite(6, LOW);
   digitalWrite(5, LOW);
   digitalWrite(2, LOW);
-  lcd.print("  AIR CORRECT");
+  lcd.print("  CORRECT AIR");
 }
 else
 {
@@ -45,7 +45,7 @@ digitalWrite(7, LOW);
 digitalWrite(6, HIGH);
 digitalWrite(5, LOW);
 digitalWrite(2, LOW);
-lcd.print("  AIR MALSAIN");
+lcd.print("  UNHEALTHY AIR");
 }
 else
 {
@@ -53,7 +53,7 @@ digitalWrite(7, LOW);
 digitalWrite(6, LOW);
 digitalWrite(5, HIGH);
 digitalWrite(2, HIGH);
-lcd.print("ALERTE POLLUTION");
+lcd.print("POLLUTION ALERT");
 }
 }
 
