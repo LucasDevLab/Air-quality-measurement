@@ -13,6 +13,6 @@ In the "Air_Quality_Motitor.ino" file you will find the code to put in the Ardui
 In the "plan.png" file you will find the installation diagram of the air quality measuring device.
 
 
-/!\ Selon le seuil de sensibilité de votre module MQ135 la valeur peut varié ! Vous pouvez changer les valeur des ligne n°34 Eet n°43.
+/!\ Depending on the sensitivity threshold of your MQ135 module, the value may vary! You can change the values ​​of lines #34 and #43.
 
-/!\ Si une erreur vous avez un probleme avec votre écrans lcd il faut modifier la ligne n°3 ! Pour trouver le code de votre écran lcd rentrer ce code dans L'arduino et il afficheras votre code (par exemple :0x3F,16,2)
+/!\ If an error you have a problem with your LCD screens you must modify line n°3! To find the code for your LCD screen, enter this code () into the Arduino and it will display your code (for example: 0x3F,16,2)
