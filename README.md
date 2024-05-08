@@ -1,4 +1,4 @@
-Hello, to build the Air-quality-measurement you need:
+Hello, to build the air quality measuring device you need:
 - 1 arduino card
 - 1 LCD screen
 - 1 buzzer
