@@ -16,3 +16,7 @@ In the "plan.png" file you will find the installation diagram of the air quality
 /!\ Depending on the sensitivity threshold of your MQ135 module, the value may vary! You can change the values ​​of lines #34 and #43.
 
 /!\ If an error you have a problem with your LCD screens you must modify line n°3! To find the code for your LCD screen, enter this code (https://github.com/LucasDevLab/Air-quality-measurement/blob/main/i2c_scanner.ino) into the Arduino and it will display your code (for example: 0x3F,16,2)
+
+- ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) `#f03c15`
+- ![#c5f015](https://placehold.co/15x15/c5f015/c5f015.png) `#c5f015`
+- ![#1589F0](https://placehold.co/15x15/1589F0/1589F0.png) `#1589F0`
